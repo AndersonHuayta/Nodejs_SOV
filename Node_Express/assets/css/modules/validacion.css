@@ -1,0 +1,23 @@
+.form-control.ok input {
+    border: 0.1px solid;
+    border-color: rgb(0, 155, 155);
+}
+
+.form-control.falla input {
+    border: 0.1px solid;
+    border-color: #ff1100;
+}
+
+.form-control p {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+}
+
+.form-control.falla p {
+    visibility: visible;
+    color: #ff1900;
+
+}
